@@ -1,0 +1,24 @@
+.hidden_menu {
+    display: flex;
+    position: fixed;
+    width: 280px;
+    top: 0;
+    background-color: #71a173;
+    align-items: center;
+    left: -250px;
+    transition: left 0.08s;
+    z-index: 10;
+}
+.active {
+    left: 0;
+}
+.link {
+    color: darkgreen;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+    text-decoration-line: none;
+}
+.link:hover {
+ color: white ;
+}
